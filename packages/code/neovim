@@ -4,9 +4,9 @@ git clone 'https://github.com/neovim/neovim.git'
 cd 'neovim'
 
 # Build
-make
+make CMAKE_INSTALL_PREFIX=/shade/etc 
 
 # Install
-make CMAKE_INSTALL_PREFIX=/shade/etc install
+make install
 
 # Post-install
