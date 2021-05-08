@@ -6,13 +6,13 @@ Templates for buildscripts
 
 ```bash
 # Setup
-cd /shade/main/cache
+cd /usr/local/shade/cache
 # You may need to extract an archive
 wget '<url>' # For direct downloads. You can replace this with a git clone
 cd '<dir>'
 
 # Building
-./configure --prefix=/shade/etc/
+./configure --prefix=/usr
 make
 
 # Finalizing
@@ -23,11 +23,11 @@ make install
 
 ```bash
 # Setup
-cd /shade/main/cache
+cd /usr/local/shade/cache
 # You may need to extract an archive
 wget '<url>' # For direct downloads. You can replace this with a git clone
 cd '<dir>'
 
 # Finalizing
-cp ./<binary> /shade/etc/bin/
+cp ./<binary> /usr/local/bin/
 ```

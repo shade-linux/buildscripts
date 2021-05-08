@@ -1,10 +1,10 @@
 # Pre-install
-cd /shade/main/cache
+cd /usr/local/shade/cache
 git clone 'https://github.com/vim/vim.git'
 cd 'vim'
 
 # Build
-./configure --prefix=/shade/etc/
+./configure
 make
 
 # Install
