@@ -4,9 +4,10 @@ git clone 'https://github.com/vim/vim.git'
 cd 'vim'
 
 # Build
+./configure --prefix=/shade/etc/
 make
 
 # Install
-make PREFIX=/shade/etc install
+make install
 
 # Post-install
