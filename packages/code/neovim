@@ -4,11 +4,9 @@ git clone 'https://github.com/neovim/neovim.git'
 cd 'neovim'
 
 # Build
-mkdir build
-cd build
-cmake -DCMAKE_INSTALL_PREFIX=/shade/etc/
-cmake --build build
+make CMAKE_BUILD_TYPE=RelWithDebInfo CMAKE_INSTALL_PREFIX=/shade/etc 
 
 # Install
+make install
 
 # Post-install
