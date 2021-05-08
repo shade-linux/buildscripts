@@ -7,6 +7,6 @@ cd 'neovim'
 make
 
 # Install
-make PREFIX=/shade/etc install
+make CMAKE_INSTALL_PREFIX=/shade/etc install
 
 # Post-install
