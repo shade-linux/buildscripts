@@ -1,0 +1,12 @@
+# Pre-install
+cd /shade/main/cache
+git clone 'https://github.com/neovim/neovim.git'
+cd 'neovim'
+
+# Build
+make
+
+# Install
+make PREFIX=/shade/etc install
+
+# Post-install

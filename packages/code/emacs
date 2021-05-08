@@ -11,4 +11,3 @@ make
 make install
 
 # Post-install
-# echo 'Emacs git has been installed' # Example

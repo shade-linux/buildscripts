@@ -1,0 +1,12 @@
+# Pre-install
+cd /shade/main/cache
+git clone 'https://github.com/vim/vim.git'
+cd 'vim'
+
+# Build
+make
+
+# Install
+make PREFIX=/shade/etc install
+
+# Post-install
