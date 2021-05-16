@@ -1,3 +1,4 @@
 NAME: Vim
-DESCRIPTION: Vi Improved, a highly configurable, improved version of the vi text editor
-CATEGORIES: code
+PKG: vim
+DESC: Vi Improved, a highly configurable, improved version of the vi text editor
+CAT: code

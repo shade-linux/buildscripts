@@ -1,3 +1,4 @@
 NAME: Hello
-DESCRIPTION: Prints Hello World and more
-CATEGORIES: misc
+PKG: hello
+DESC: Prints Hello World and more
+CAT: misc

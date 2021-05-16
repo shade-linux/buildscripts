@@ -1,3 +1,4 @@
 NAME: Emacs
-DESCRIPTION: The extensible, customizable, self-documenting real-time display editor
-CATEGORIES: code
+PKG: emacs
+DESC: The extensible, customizable, self-documenting real-time display editor
+CAT: code
