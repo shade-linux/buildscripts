@@ -1,10 +1,10 @@
 # Pre-install
-cd /usr/local/shade/cache
+cd /usr/local/shade/etc/cache
 git clone 'git://git.sv.gnu.org/emacs.git'
 cd 'emacs'
 
 # Build
-./configure
+./configure --prefix=/usr/local/shade/
 make
 
 # Install

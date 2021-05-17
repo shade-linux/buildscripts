@@ -1,9 +1,12 @@
 # Pre-install
-cd /usr/local/shade/cache
+cd /usr/local/shade/etc/cache
 git clone 'https://github.com/neovim/neovim.git'
 cd 'neovim'
 
 # Build
-make CMAKE_BUILD_TYPE=Release install
+make CMAKE_EXTRA_FLAGS="-DCMAKE_INSTALL_PREFIX=/usr/local/shade/"
+
+# Install
+make install
 
 # Post-install
