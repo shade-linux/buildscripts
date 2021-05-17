@@ -8,6 +8,6 @@ ant dist
 ant build
 
 # Install
-ls
+ant run
 
 # Post-install
