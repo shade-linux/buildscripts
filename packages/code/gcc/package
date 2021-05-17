@@ -1,0 +1,15 @@
+# Pre-install
+cd /usr/local/shade/etc/cache
+git clone 'git://gcc.gnu.org/git/gcc.git'
+cd 'gcc'
+
+# Build
+mkdir objdir
+cd objdir
+../configure --prefix=/usr/local/shade/
+make
+
+# Install
+make install
+
+# Post-install
