@@ -1,0 +1,13 @@
+# Pre-install
+cd /usr/local/shade/etc/cache
+https://github.com/python/cpython
+cd 'cpython'
+
+# Build
+./configure --prefix=/usr/local/shade/
+make
+
+# Install
+make install
+
+# Post-install
