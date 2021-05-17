@@ -1,0 +1,13 @@
+# Pre-install
+cd /usr/local/shade/etc/cache
+git clone --depth 1 https://github.com/arduino/Arduino.git
+cd 'Arduino/build'
+
+# Build
+ant dist
+ant build
+
+# Install
+ls
+
+# Post-install
