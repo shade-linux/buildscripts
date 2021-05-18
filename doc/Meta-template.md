@@ -8,5 +8,4 @@ Templates for metadata
 NAME: <name>
 PKG: <package-name>
 DESC: <description>
-CAT: <categories>
 ```

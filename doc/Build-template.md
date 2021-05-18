@@ -8,7 +8,7 @@ Templates for buildscripts
 # Setup
 cd /usr/local/shade/etc/cache
 # You may need to extract an archive
-wget '<url>' # For direct downloads. You can replace this with a git clone
+wget '<url>' -O '<output-file>' # For direct downloads. You can replace this with a git clone
 cd '<dir>'
 
 # Building

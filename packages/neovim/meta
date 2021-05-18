@@ -1,4 +1,3 @@
 NAME: Neovim
 PKG: neovim
 DESC: Fork of Vim aiming to improve user experience, plugins, and GUIs
-CAT: code
