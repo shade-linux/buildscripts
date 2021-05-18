@@ -1,8 +1,8 @@
 # Setup
 cd /usr/local/shade/cache
 wget 'https://ftp.gnu.org/gnu/hello/hello-1.3.tar.gz'
-tar -xf 'hello-1.3.tar.gz'
-cd 'hello-1.3'
+tar -xf 'hello-1.3.tar.gz' -C 'hello'
+cd 'hello'
 
 # Building
 ./configure --prefix=/usr/local/shade

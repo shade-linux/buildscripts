@@ -5,6 +5,9 @@ Templates for buildscripts
 ## Make
 
 ```bash
+# Dependencies
+shade -i <dependency>
+
 # Setup
 cd /usr/local/shade/etc/cache
 # You may need to extract an archive
@@ -22,6 +25,9 @@ make install
 ## Binary
 
 ```bash
+# Dependencies
+shade -i <dependency>
+
 # Setup
 cd /usr/local/shade/etc/cache
 # You may need to extract an archive

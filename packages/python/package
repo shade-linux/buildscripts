@@ -1,7 +1,7 @@
 # Pre-install
 cd /usr/local/shade/cache
-git clone 'https://github.com/python/cpython'
-cd 'cpython'
+git clone 'https://github.com/python/cpython' python
+cd 'python'
 
 # Build
 ./configure --prefix=/usr/local/shade/
