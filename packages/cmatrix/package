@@ -5,3 +5,4 @@ autoreconf -i
 ./configure --prefix=/usr/local/shade
 make
 make install
+
