@@ -1,0 +1,3 @@
+NAME: Hilbish
+PKG: hilbish
+DESC: Hilbish is an interactive Unix-like shell written in Go, with the config and other code written in Lua

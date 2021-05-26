@@ -1,0 +1,6 @@
+git clone --recursive https://github.com/Mewyuna/Hilbish
+cd Hilbish
+go get -d
+make build
+cp hilbish /usr/local/shade/bin
+
