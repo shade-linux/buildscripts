@@ -1,0 +1,5 @@
+cd /usr/local/shade/cache
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs --output rustup.sh
+less rustup.sh
+sh rustup.sh
+
