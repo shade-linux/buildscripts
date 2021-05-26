@@ -1,0 +1,14 @@
+# Pre-install
+wget "https://nodejs.org/dist/v14.17.0/node-v14.17.0-linux-x64.tar.xz"
+tar xzf node-v14.17.0-linux-x64.tar.xz
+mv node-v14.17.0-linux-x64 node
+cd node
+
+# Build
+# Install
+mv lib/* /usr/local/shade/lib
+mv bin/* /usr/local/shade/bin
+mv include/* /usr/local/shade/include
+mv share/* /usr/local/shade/share
+
+# Post-install
