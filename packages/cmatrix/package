@@ -1,8 +1,13 @@
-cd /usr/local/shade/cache
+# Pre-install
 git clone https://github.com/abishekvashok/cmatrix
 cd cmatrix
+
+# Build
 autoreconf -i
 ./configure --prefix=/usr/local/shade
 make
+
+# Install
 make install
 
+# Post-install
