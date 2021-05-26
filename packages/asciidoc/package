@@ -1,0 +1,14 @@
+# Pre-install
+git clone "https://github.com/asciidoc-py/asciidoc-py"
+mv 'asciidoc-py' 'asciidoc'
+cd 'asciidoc'
+
+# Build
+./configure --prefix=/usr/local/shade
+make
+
+# Install
+make install
+make docs
+
+# Post-install

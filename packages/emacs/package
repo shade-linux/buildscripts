@@ -1,5 +1,4 @@
 # Pre-install
-cd /usr/local/shade/cache
 git clone 'git://git.sv.gnu.org/emacs.git'
 cd 'emacs'
 

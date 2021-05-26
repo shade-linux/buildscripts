@@ -1,3 +1,4 @@
 NAME: Bash
 PKG: bash
 DESC: The Bourne shell
+OS: Linux, Darwin

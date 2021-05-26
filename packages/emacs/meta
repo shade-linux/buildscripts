@@ -1,3 +1,4 @@
 NAME: Emacs
 PKG: emacs
 DESC: The extensible, customizable, self-documenting real-time display editor
+OS: Linux, Darwin

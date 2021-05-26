@@ -1,0 +1,4 @@
+NAME: Git
+PKG: git
+DESC: Fast, scalable, distributed revision control system
+OS: Linux, Darwin
