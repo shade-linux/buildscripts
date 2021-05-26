@@ -1,21 +1,14 @@
-#!/bin/sh
+# Pre-install
+wget "https://nodejs.org/dist/v14.17.0/node-v14.17.0-linux-x64.tar.xz"
+tar xzf node-v14.17.0-linux-x64.tar.xz
+mv node-v14.17.0-linux-x64 node
+cd node
 
-if [[ "$OSTYPE" == "linux-gnu"* ]]; then
-        wget "https://nodejs.org/dist/v14.17.0/node-v14.17.0-linux-x64.tar.xz"
-        tar xzf node-v14.17.0-linux-x64.tar.xz
-        cd node-v14.17.0-linux-x64
-        mv lib/* /usr/local/shade/lib
-        mv bin/* /usr/local/shade/bin
-        mv include/* /usr/local/shade/include
-        mv share/* /usr/local/shade/share
-elif [[ "$OSTYPE" == "darwin"* ]]; then
-        wget "https://nodejs.org/dist/v14.17.0/node-v14.17.0-darwin-x64.tar.gz"
-        tar xzf node-v14.17.0-darwin-x64.tar.gz
-        cd node-v14.17.0-darwin-x64
-        mv lib/* /usr/local/shade/lib
-        mv bin/* /usr/local/shade/bin
-        mv include/* /usr/local/shade/include
-        mv share/* /usr/local/shade/share
-else
-       echo no 
-fi
+# Build
+# Install
+mv lib/* /usr/local/shade/lib
+mv bin/* /usr/local/shade/bin
+mv include/* /usr/local/shade/include
+mv share/* /usr/local/shade/share
+
+# Post-install
