@@ -1,5 +1,4 @@
 # Pre-install
-cd /usr/local/shade/cache
 wget "https://ftp.gnu.org/gnu/readline/readline-8.1.tar.gz"
 tar xf "readline-8.1.tar.gz"
 cd 'readline-8.1'
