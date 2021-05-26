@@ -1,4 +1,4 @@
-NAME: Python
-PKG: python
-DESC: The Python programming language 
+NAME: GCC
+PKG: gcc
+DESC: The GNU compiler collection
 OS: Linux, Darwin
