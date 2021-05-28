@@ -1,7 +1,7 @@
 # Contributing
 
 Thank you for showing interest in contributing to the Shade buildscripts.
-To communicate, you can join the [Matrix room](https://matrix.to/#/!seeNYJscvKSNvmTcQE:matrix.org?via=matrix.org)
+To communicate, you can join the [Matrix room](https://matrix.to/#/!QFHcZFQVmhZjDjYMYR:matrix.org?via=matrix.org)
 
 You must have a basic knowledge of bash to contribute,
 since buildscripts are essentially bash scripts.
