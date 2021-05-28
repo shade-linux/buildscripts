@@ -8,3 +8,4 @@ make build
 
 # Install
 cp hilbish /usr/local/shade/bin
+cp .hilbishrc.lua $HOME/.hilbishrc.lua
