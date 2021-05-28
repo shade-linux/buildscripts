@@ -1,0 +1,4 @@
+NAME: Lunacolors
+PKG: lunacolors
+DESC: ANSI colors library for Lua. 
+OS: Linux, Darwin

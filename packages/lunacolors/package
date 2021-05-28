@@ -1,0 +1,11 @@
+# Pre-install
+git clone https://github.com/Mewyuna/Lunacolors
+cd Lunacolors
+
+# Build
+
+# Install
+mkdir -p /usr/local/shade/share/hilbish
+cp lunacolors.lua /usr/local/shade/share/hilbish/
+
+# Post-install
