@@ -4,11 +4,11 @@ cd cbonsai
 
 # Build
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
-  cc -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -pedantic cbonsai.c  -lncurses -ltinfo -lpanel -o cbonsai
+    cc -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -pedantic cbonsai.c  -lncurses -ltinfo -lpanel -o cbonsai
 elif [[ "$OSTYPE" == "darwin"* ]]; then
-  cc -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -pedantic cbonsai.c  -lncurses -lpanel -o cbonsai
+    cc -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -pedantic cbonsai.c  -lncurses -lpanel -o cbonsai
 else 
-  echo no
+    exit 1
 fi
 
 # Install
