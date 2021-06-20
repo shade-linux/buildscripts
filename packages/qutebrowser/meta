@@ -1,0 +1,5 @@
+NAME: Qutebrowser
+PKG: qutebrowser
+DESC: A keyboard-driven, vim-like browser based on PyQt5
+DEPS: Python, Qt, PyQt, jinja2, PyYAML, asciidoc, pygmentize
+OS: Linux
