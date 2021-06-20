@@ -1,10 +1,19 @@
-# Pre-install
-wget "https://nodejs.org/dist/v14.17.0/node-v14.17.0-linux-x64.tar.xz"
-tar xzf node-v14.17.0-linux-x64.tar.xz
-mv node-v14.17.0-linux-x64 node
-cd node
+if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+    # Pre-install
+    wget "https://nodejs.org/dist/v14.17.0/node-v14.17.0-linux-x64.tar.xz"
+    tar xzf node-v14.17.0-linux-x64.tar.xz
+    mv node-v14.17.0-linux-x64 node
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+    # Pre-install
+    wget "https://nodejs.org/dist/v14.17.0/node-v14.17.0-darwin-x64.tar.gz"
+    tar xzf node-v14.17.0-darwin-x64.tar.gz
+    mv node-v14.17.0-darwin-x64 node
+else
+    exit 1
+fi
 
 # Build
+
 # Install
 mv lib/* /usr/local/shade/lib
 mv bin/* /usr/local/shade/bin

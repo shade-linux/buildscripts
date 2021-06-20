@@ -1,0 +1,4 @@
+NAME: CBonsai
+PKG: cbonsai
+DESC: Grow bonsai trees in your terminal
+OS: Linux, Darwin
