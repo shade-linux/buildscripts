@@ -1,4 +1,5 @@
 NAME: Neovim
 PKG: neovim
 DESC: Fork of Vim aiming to improve user experience, plugins, and GUIs
+DEPS: libtermkey, libvterm, libuv, luajit
 OS: Linux, Darwin

@@ -1,4 +1,5 @@
 NAME: CBonsai
 PKG: cbonsai
 DESC: Grow bonsai trees in your terminal
+DEPS: gcc, ncurses
 OS: Linux, Darwin

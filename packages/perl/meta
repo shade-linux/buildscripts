@@ -1,4 +1,5 @@
 NAME: Perl
 PKG: perl
 DESC: The Perl programming language 
+DEPS: glibc, libcrypt, libxcrypt
 OS: Linux, Darwin

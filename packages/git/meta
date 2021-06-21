@@ -1,4 +1,5 @@
 NAME: Git
 PKG: git
 DESC: Fast, scalable, distributed revision control system
+DEPS: curl, perl, pcre, gettext, openssl, grep
 OS: Linux, Darwin

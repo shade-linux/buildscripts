@@ -1,4 +1,5 @@
 NAME: Bat
 PKG: bat
 DESC: A cat clone with wings
+DEPS: rust
 OS: Linux, Darwin

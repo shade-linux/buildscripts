@@ -1,4 +1,5 @@
 NAME: Neofetch
 PKG: neofetch
 DESC: A command-line system information tool written in bash 3.2+
+DEPS: bash
 OS: Linux, Darwin

@@ -1,4 +1,5 @@
 NAME: Glibc
 PKG: glibc
 DESC: The GNU c library
+DEPS: binutils, linux-api-headers
 OS: Linux

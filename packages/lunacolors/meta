@@ -1,4 +1,5 @@
 NAME: Lunacolors
 PKG: lunacolors
 DESC: ANSI colors library for Lua. 
+DEPS: lua
 OS: Linux, Darwin
