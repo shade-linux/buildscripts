@@ -1,0 +1,5 @@
+NAME: gccmacs
+PKG: emacs-native-comp
+DESC: The extensible, customizable, self-documenting real-time display editor
+DEPS: gnutls, jansson, gtk3, libgccjit
+OS: Linux, Darwin
