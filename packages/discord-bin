@@ -10,5 +10,5 @@ SOURCE:
     SOURCE-DARWIN: https://dl.discordapp.net/apps/osx/0.0.263/Discord.dmg
     SOURCE-LINUX: https://dl.discordapp.net/apps/linux/0.0.15/discord-0.0.15.tar.gz
 COMMANDS: 
-    COMMANDS-DARWIN: open ./discord.dmg
+    COMMANDS-DARWIN: mv discord-bin discord.dmg; open ./discord.dmg
     COMMANDS-LINUX: tar xzvf discord-0.0.15.tar.gz; cp ./discord-0.0.15/discord /usr/local/shade/bin
