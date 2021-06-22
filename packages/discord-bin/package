@@ -10,7 +10,7 @@ if [[ "$OSTYPE" == "linux-gnu"* ]]; then
 
 elif [[ "$OSTYPE" == "darwin"* ]]; then
     # Pre-install
-    wget https://discord.com/api/download?platform=osx -O discord.dmg
+    curl -L https://discord.com/api/download?platform=osx -o discord.dmg
     # Install
     open ./discord.dmg
 fi
