@@ -1,8 +1,0 @@
-# Pre-install
-git clone 'https://github.com/dylanaraps/neofetch/'
-cd 'neofetch'
-
-# Install
-make PREFIX=/usr/local/shade install
-
-# Post-install

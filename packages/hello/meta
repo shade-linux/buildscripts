@@ -1,5 +1,0 @@
-NAME: Hello
-PKG: hello
-DESC: Prints Hello World and more
-DEPS: none
-OS: Linux

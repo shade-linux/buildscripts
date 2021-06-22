@@ -1,0 +1,10 @@
+NAME:     Shade
+PKGNAME:  shade
+DESC:     A simple package manager written in shell
+DEPS:     bash, git, grep, find
+OS:       Linux, Darwin
+VERSION:  git
+
+TYPE:     git
+SOURCE:   https://www.github.com/shade-linux/shade
+COMMANDS: cp ./src/shade /usr/local/shade/bin

@@ -1,5 +1,0 @@
-NAME: GCC
-PKG: gcc
-DESC: The GNU compiler collection
-DEPS: gcc-libs, binutils, libmpc
-OS: Linux, Darwin

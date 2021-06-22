@@ -1,5 +1,0 @@
-NAME: Python
-PKG: python
-DESC: The Python programming language 
-DEPS: gdbm, readline, openssl
-OS: Linux, Darwin

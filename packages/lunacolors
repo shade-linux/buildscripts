@@ -1,0 +1,10 @@
+NAME:     Lunacolors
+PKGNAME:  lunacolors
+DESC:     ANSI colors library for lua
+DEPS:     lua
+OS:       Linux, Darwin
+VERSION:  git
+
+TYPE:     git
+SOURCE:   https://github.com/Mewyuna/Lunacolors
+COMMANDS: mkdir -p /usr/local/shade/share/hilbish; cp lunacolors.lua /usr/local/shade/share/hilbish/

@@ -1,0 +1,10 @@
+NAME:     Bat
+PKGNAME:  bat
+DESC:     A cat clone with wings
+DEPS:     rust
+OS:       Linux, Darwin
+VERSION:  git
+
+TYPE:     git
+SOURCE:   https://github.com/sharkdp/bat
+COMMANDS: cargo build --release; cp ./target/release/bat /usr/local/shade/bin/

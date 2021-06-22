@@ -1,0 +1,10 @@
+NAME:     Python
+PKGNAME:  python
+DESC:     The Python programming language
+DEPS:     gdbm, readline, openssl
+OS:       Linux, Darwin
+VERSION:  git
+
+TYPE:     git
+SOURCE:   https://www.github.com/python/cpython
+COMMANDS: ./configure --prefix=/usr/local/shade; make; make install

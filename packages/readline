@@ -1,0 +1,10 @@
+NAME:     GNU readline
+PKGNAME:  readline
+DESC:     The GNU readline library
+DEPS:     glibc, ncurses
+OS:       Linux, Darwin
+VERSION:  8.1
+
+TYPE:     direct
+SOURCE:   https://ftp.gnu.org/gnu/readline/readline-8.1.tar.gz
+COMMANDS: ./configure --prefix=/usr/local/shade; make; make install

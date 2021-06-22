@@ -1,5 +1,0 @@
-NAME: Bash
-PKG: bash
-DESC: The Bourne shell
-DEPS: readline, glibc, ncurses
-OS: Linux, Darwin

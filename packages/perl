@@ -1,0 +1,10 @@
+NAME:     Perl
+PKGNAME:  perl
+DESC:     The Perl programming language
+DEPS:     glibc, libcrypt, libxcrypt
+OS:       Linux, Darwin
+VERSION:  git
+
+TYPE:     git
+SOURCE:   https://www.github.com/perl/perl5
+COMMANDS: ./Configure -des -Dprefix=/usr/local/shade/ -Dusedevel; make test; make install

@@ -1,9 +1,0 @@
-# Pre-install
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs --output rustup.sh
-less rustup.sh
-
-# Build
-# Install
-sh rustup.sh
-
-# Post-install

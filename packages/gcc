@@ -1,0 +1,10 @@
+NAME:     GCC
+PKGNAME:  gcc
+DESC:     The GNU compiler collection
+DEPS:     gcc-libs, binutils, libmpc
+OS:       Linux, Darwin
+VERSION:  git
+
+TYPE:     git
+SOURCE:   https://www.github.com/gcc-mirror/gcc
+COMMANDS: mkdir objdir; cd objdir; ../configure --prefix=/usr/local/shade; make; make install

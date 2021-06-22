@@ -1,5 +1,0 @@
-NAME: Emacs
-PKG: emacs
-DESC: The extensible, customizable, self-documenting real-time display editor
-DEPS: gnutls, jansson, gtk3
-OS: Linux, Darwin
