@@ -1,0 +1,10 @@
+NAME:     gccemacs
+PKGNAME:  emacs-native-comp
+DESC:     The extensible, customizable, self-documenting real-time display editor    
+DEPS:     gnutls, jansson, gtk3, libgccjit
+OS:       Linux, Darwin
+VERSION:  git
+
+TYPE:     git
+SOURCE:   git://git.sv.gnu.org/emacs.git
+COMMANDS: cd emacs; ./autogen.sh; ./configure --prefix=/usr/local/shade --with-native-compilation; make; make install

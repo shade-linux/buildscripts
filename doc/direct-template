@@ -1,0 +1,14 @@
+NAME:     Example
+PKGNAME:  example-bin
+DESC:     Never gonna give you up
+DEPS:     Never, Gonna, Let, You, Down
+OS:       Linux, Darwin
+VERSION:  6.9.42.0
+
+TYPE:     direct
+SOURCE:
+    SOURCE-DARWIN: https://example.com/rickastley/darwin.tar.gz
+    SOURCE-LINUX: https://example.com/rickastley/linux.tar.gz
+COMMANDS:
+    COMMANDS-DARWIN: tar xzvf darwin.tar.gz; cd darwin; make; make install
+    COMMANDS-DARWIN: tar xzvf linux.tar.gz; cd linux; make; make install

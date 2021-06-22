@@ -1,0 +1,10 @@
+NAME:     Neovim
+PKGNAME:  neovim
+DESC:     Fork of Vim aiming to improve user experience, plugins, and GUIs
+DEPS:     libtermkey, libvterm, libuv, luajit
+OS:       Linux, Darwin
+VERSION:  git
+
+TYPE:     git
+SOURCE:   https://github.com/neovim/neovim
+COMMANDS: cd neovim; make CMAKE_EXTRA_FLAGS="-DCMAKE_INSTALL_PREFIX=/usr/local/shade/"; make install

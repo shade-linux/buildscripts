@@ -1,4 +1,0 @@
-NAME: Glibc
-PKG: glibc
-DESC: The GNU c library
-OS: Linux

@@ -1,0 +1,10 @@
+NAME:     Example
+PKGNAME:  example
+DESC:     Never gonna give you up
+DEPS:     Never, Gonna, Let, You, Down
+OS:       Linux, Darwin
+VERSION:  git
+
+TYPE:     git
+SOURCE:   https://www.github.com/rickastley/nggyu
+COMMANDS: cd nggyu; make; make install

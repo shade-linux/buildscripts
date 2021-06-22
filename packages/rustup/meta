@@ -1,4 +1,0 @@
-NAME: Rustup
-PKG: rustup
-DESC: Rustup is an installer for the systems programming language Rust
-OS: Linux, Darwin

@@ -1,4 +1,0 @@
-NAME: GNU readline
-PKG: readline
-DESC: The GNU readline library
-OS: Linux, Darwin

@@ -1,4 +1,0 @@
-NAME: GCC
-PKG: gcc
-DESC: The GNU compiler collection
-OS: Linux, Darwin

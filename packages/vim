@@ -1,0 +1,10 @@
+NAME:     Vim
+PKGNAME:  vim
+DESC:     Vi Improved, a highly configurable, improved version of the vi text editor
+DEPS:     vim-runtime, glibc
+OS:       Linux, Darwin
+VERSION:  git
+
+TYPE:     git
+SOURCE:   https://www.github.com/vim/vim
+COMMANDS: cd vim; ./configure --prefix=/usr/local/shade; make; make install
