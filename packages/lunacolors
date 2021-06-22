@@ -7,4 +7,4 @@ VERSION:  git
 
 TYPE:     git
 SOURCE:   https://github.com/Mewyuna/Lunacolors
-COMMANDS: mkdir -p /usr/local/shade/share/hilbish; cp lunacolors.lua /usr/local/shade/share/hilbish/
+COMMANDS: cd luna colors; mkdir -p /usr/local/shade/share/hilbish; cp lunacolors.lua /usr/local/shade/share/hilbish/

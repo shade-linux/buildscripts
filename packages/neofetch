@@ -7,4 +7,4 @@ VERSION:  git
 
 TYPE:     git
 SOURCE:   https://github.com/dylanaraps/neofetch/
-COMMANDS: make PREFIX=/usr/local/shade install
+COMMANDS: cd neofetch; make PREFIX=/usr/local/shade install

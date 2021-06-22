@@ -7,4 +7,4 @@ VERSION:  git
 
 TYPE:     git
 SOURCE:   https://www.github.com/vim/vim
-COMMANDS: ./configure --prefix=/usr/local/shade; make; make install
+COMMANDS: cd vim; ./configure --prefix=/usr/local/shade; make; make install

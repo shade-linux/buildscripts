@@ -7,4 +7,4 @@ VERSION:  1.3
 
 TYPE:     direct
 SOURCE:   https://ftp.gnu.org/gnu/hello/hello-1.3.tar
-COMMANDS: ./configure --prefix=/usr/local/shade; make; make install
+COMMANDS: tar xzvf hello; cd hello; ./configure --prefix=/usr/local/shade; make; make install
