@@ -9,4 +9,4 @@ TYPE:     direct
 SOURCE:
     SOURCE-DARWIN: https://nodejs.org/dist/v14.17.0/node-v14.17.0-darwin-x64.tar.gz
     SOURCE-LINUX: https://nodejs.org/dist/v14.17.0/node-v14.17.0-linux-x64.tar.xz
-COMMANDS: mkdir node; tar xzf node-bin -C node; cd node; mv lib/* /usr/local/shade/lib; mv bin/* /usr/local/shade/bin; mv include/* /usr/local/shade/include; mv share/* /usr/local/shade/share
+COMMANDS: tar xzf node-bin; mv node-*/lib/* /usr/local/shade/lib; mv node-*/bin/* /usr/local/shade/bin; mv node-*/include/* /usr/local/shade/include; mv node-*/share/* /usr/local/shade/share
