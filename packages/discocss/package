@@ -1,0 +1,10 @@
+# Pre-install
+git clone "https://github.com/mlvzk/discocss"
+cd 'discocss'
+
+# Build
+
+# Install
+cp ./discocss /usr/local/shade/bin/
+
+# Post-install

@@ -1,0 +1,18 @@
+if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+    # Pre-install
+    curl https://dl.discordapp.net/apps/linux/0.0.15/discord-0.0.15.tar.gz
+    tar xzvf discord-0.0.15.tar.gz
+    cd discord-0.0.15
+    # Build
+    
+    # Install
+    cp ./discord /usr/local/shade/bin
+
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+    # Pre-install
+    wget https://discord.com/api/download?platform=osx
+    # Install
+    open ./Discord.dmg
+fi
+
+# Post-install

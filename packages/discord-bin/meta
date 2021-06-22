@@ -1,0 +1,5 @@
+NAME: Discord
+PKG: discord-bin
+DESC: Your place to talk and hang out
+DEPS: none
+OS: Linux, Darwin

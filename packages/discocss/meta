@@ -1,0 +1,5 @@
+NAME: DiscoCSS
+PKG: discocss
+DESC: A tiny Discord css-injector
+DEPS: bash
+OS: Linux, Darwin
