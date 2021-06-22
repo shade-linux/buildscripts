@@ -1,5 +1,5 @@
 NAME: Rustup
-PKG: rustup
+PKG: rustup-bin
 DESC: Rustup is an installer for the systems programming language Rust
 DEPS: curl, xz
 OS: Linux, Darwin
