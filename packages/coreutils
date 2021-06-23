@@ -1,0 +1,10 @@
+NAME:     Coreutils
+PKGNAME:  coreutils
+DESC:     The GNU Core utilities
+DEPS:     make
+OS:       Linux
+VERSION:  git
+
+TYPE:     git
+SOURCE:   git://git.sv.gnu.org/coreutils
+COMMANDS: ./bootstrap; ./configure --prefix=/usr/local/shade; make; make install
