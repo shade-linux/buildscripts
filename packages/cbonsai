@@ -15,3 +15,14 @@ fi
 cp cbonsai /usr/local/shade/bin
 
 # Post-install
+
+NAME:     CBonsai
+PKG:      cbonsai
+DESC:     Grow bonsai trees in your terminal
+DEPS:     ncurses
+OS:       Linux, Darwin
+VERSION:  git
+
+TYPE:     git
+SOURCE:   https://gitlab.com/jallbrit/cbonsai
+COMMANDS: cd cbonsai; make install PREFIX=/usr/local/shade/
