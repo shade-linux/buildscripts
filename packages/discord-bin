@@ -11,4 +11,4 @@ SOURCE:
     SOURCE-LINUX: https://dl.discordapp.net/apps/linux/0.0.15/discord-0.0.15.tar.gz
 COMMANDS: 
     COMMANDS-DARWIN: mv discord-bin discord.dmg; open ./discord.dmg
-    COMMANDS-LINUX: tar xzvf discord-0.0.15.tar.gz; cp ./discord-0.0.15/discord /usr/local/shade/bin
+    COMMANDS-LINUX: tar xzvf discord-0.0.15.tar.gz; cp ./discord-0.0.15/discord /opt/shade/bin

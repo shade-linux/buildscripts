@@ -7,4 +7,4 @@ VERSION:  git
 
 TYPE:     git
 SOURCE:   https://github.com/neovim/neovim
-COMMANDS: cd neovim; make CMAKE_EXTRA_FLAGS="-DCMAKE_INSTALL_PREFIX=/usr/local/shade/"; make install
+COMMANDS: cd neovim; make CMAKE_EXTRA_FLAGS="-DCMAKE_INSTALL_PREFIX=/opt/shade/"; make install

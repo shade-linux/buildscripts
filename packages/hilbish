@@ -7,4 +7,4 @@ VERSION:  git
 
 TYPE:     git
 SOURCE:   https://github.com/Mewyuna/Hilbish 
-COMMANDS: cd hilbish; go get -d; make build; cp hlibish /usr/local/shade/bin; cp .hlibish.lua $HOME/.hilbishrc.lua
+COMMANDS: cd hilbish; go get -d; make build; cp hlibish /opt/shade/bin; cp .hlibish.lua $HOME/.hilbishrc.lua

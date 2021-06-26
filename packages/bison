@@ -1,0 +1,10 @@
+NAME:     Bison
+PKGNAME:  bison
+DESC:     The GNU general-purpose parser generator
+DEPS:     glibc
+OS:       Linux
+VERSION:  git
+
+TYPE:     git
+SOURCE:   https://git.savannah.gnu.org/git/bison.git
+COMMANDS: cd bison; ./bootstrap; ./configure --prefix=/opt/shade; make; make install

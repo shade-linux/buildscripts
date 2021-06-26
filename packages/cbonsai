@@ -1,17 +1,10 @@
-# Pre-install
-git clone https://gitlab.com/jallbrit/cbonsai
-cd cbonsai
+NAME:     CBonsai
+PKG:      cbonsai
+DESC:     Grow bonsai trees in your terminal
+DEPS:     ncurses
+OS:       Linux, Darwin
+VERSION:  git
 
-# Build
-if [[ "$OSTYPE" == "linux-gnu"* ]]; then
-    cc -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -pedantic cbonsai.c  -lncurses -ltinfo -lpanel -o cbonsai
-elif [[ "$OSTYPE" == "darwin"* ]]; then
-    cc -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -pedantic cbonsai.c  -lncurses -lpanel -o cbonsai
-else 
-    exit 1
-fi
-
-# Install
-cp cbonsai /usr/local/shade/bin
-
-# Post-install
+TYPE:     git
+SOURCE:   https://gitlab.com/jallbrit/cbonsai
+COMMANDS: cd cbonsai; make install PREFIX=/opt/shade/

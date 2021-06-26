@@ -7,4 +7,4 @@ VERSION:  git
 
 TYPE:     git
 SOURCE:   https://www.github.com/qutebrowser/qutebrowser
-COMMANDS: cd qutebrowser; python3 scripts/asciidoc2html.py; a2x -f manpage doc/qutebrowser.1.asciidoc; python3 setup.py build; make -f misc/Makefile PREFIX=/usr/local/shade install
+COMMANDS: cd qutebrowser; python3 scripts/asciidoc2html.py; a2x -f manpage doc/qutebrowser.1.asciidoc; python3 setup.py build; make -f misc/Makefile PREFIX=/opt/shade install
