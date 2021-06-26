@@ -7,4 +7,4 @@ VERSION:  git
 
 TYPE:     git
 SOURCE:   https://github.com/sharkdp/bat
-COMMANDS: cd bat; cargo build --release; cp ./target/release/bat /usr/local/shade/bin/
+COMMANDS: cd bat; cargo build --release; cp ./target/release/bat /opt/shade/bin/

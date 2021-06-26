@@ -12,7 +12,7 @@ else
 fi
 
 # Install
-cp cbonsai /usr/local/shade/bin
+cp cbonsai /opt/shade/bin
 
 # Post-install
 
@@ -25,4 +25,4 @@ VERSION:  git
 
 TYPE:     git
 SOURCE:   https://gitlab.com/jallbrit/cbonsai
-COMMANDS: cd cbonsai; make install PREFIX=/usr/local/shade/
+COMMANDS: cd cbonsai; make install PREFIX=/opt/shade/

@@ -7,4 +7,4 @@ VERSION:  git
 
 TYPE:     git
 SOURCE:   https://git.savannah.gnu.org/git/bash.git
-COMMANDS: cd bash; ./configure --prefix=/usr/local/shade --with-installed-readline; make; make install
+COMMANDS: cd bash; ./configure --prefix=/opt/shade --with-installed-readline; make; make install

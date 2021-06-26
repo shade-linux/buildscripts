@@ -7,4 +7,4 @@ VERSION:  8.1
 
 TYPE:     direct
 SOURCE:   https://ftp.gnu.org/gnu/readline/readline-8.1.tar.gz
-COMMANDS: tar xzvf readline; cd readline; ./configure --prefix=/usr/local/shade; make; make install
+COMMANDS: tar xzvf readline; cd readline; ./configure --prefix=/opt/shade; make; make install

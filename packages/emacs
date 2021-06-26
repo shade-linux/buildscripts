@@ -7,4 +7,4 @@ VERSION:  git
 
 TYPE:     git
 SOURCE:   git://git.sv.gnu.org/emacs.git
-COMMANDS: cd emacs; ./configure --prefix=/usr/loca/shade; make; make install
+COMMANDS: cd emacs; ./configure --prefix=/opt/shade; make; make install

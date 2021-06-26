@@ -7,4 +7,4 @@ VERSION:  git
 
 TYPE:     direct
 SOURCE:   https://www.github.com/git/git/archive/refs/heads/master.zip
-COMMANDS: tar xzvf git; cd git; make prefix=/usr/local/shade all; make install
+COMMANDS: tar xzvf git; cd git; make prefix=/opt/shade all; make install
