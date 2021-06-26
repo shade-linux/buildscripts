@@ -7,4 +7,4 @@ VERSION:  git
 
 TYPE:     git
 SOURCE:   https://github.com/htop-dev/htop
-COMMANDS: cd htop; ./autogen.sh;  ./configure --prefix=/opt/shade; make
+COMMANDS: cd htop; ./autogen.sh; ./configure --prefix=/opt/shade; make; make install
