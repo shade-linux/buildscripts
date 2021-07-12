@@ -3,9 +3,8 @@
 # desc: CMatrix is based on the screensaver from The Matrix website
 # deps: ncurses
 # ver: git
-# type: git
-# source: https://github.com/abishekvashok/cmatrix
 
+git clone https://github.com/abishekvashok/cmatrix
 cd cmatrix
 autoreconf -i
 ./configure --prefix=${prefix}

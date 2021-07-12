@@ -3,9 +3,8 @@
 # desc: an interactive process viewer
 # deps: make, autoconf, ncurses, libtool, python3, automake
 # ver: git
-# type: git
-# source: https://github.com/htop-dev/htop
 
+git clone https://github.com/htop-dev/htop
 cd htop
 ./autogen.sh
 ./configure --prefix=${prefix}

@@ -3,8 +3,7 @@
 # desc: Your place to talk and hang out
 # deps: none
 # ver: 0.0.15
-# type: direct
-# source: https://dl.discordapp.net/apps/linux/0.0.15/discord-0.0.15.tar.gz
 
+wget https://dl.discordapp.net/apps/linux/0.0.15/discord-0.0.15.tar.gz
 tar xzvf discord-0.0.15.tar.gz
 cp ./Discord/Discord ${prefix}/bin

@@ -3,9 +3,8 @@
 # desc: A keyboard-driven, vim-like browser based on PyQt5
 # deps: Python, Qt, PyQt, jinja2, PyYAML, asciidoc, pygmentize
 # ver: git
-# type: git
-# source: https://www.github.com/qutebrowser/qutebrowser
 
+git clone https://www.github.com/qutebrowser/qutebrowser
 cd qutebrowser
 python3 scripts/asciidoc2html.py
 a2x -f manpage doc/qutebrowser.1.asciidoc

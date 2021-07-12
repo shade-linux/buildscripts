@@ -3,9 +3,8 @@
 # desc: The extensible, customizable, self-documenting real-time display editor
 # deps: gnutls, jansson, gtk3
 # ver: git
-# type: git
-# source: git://git.sv.gnu.org/emacs.git
 
+git clone git://git.sv.gnu.org/emacs.git
 cd emacs
 ./configure --prefix=${prefix}
 make

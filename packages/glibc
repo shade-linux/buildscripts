@@ -3,9 +3,8 @@
 # desc: The GNU C library
 # deps: binutils, linux-api-headers
 # ver: git
-# type: git
-# source: https://sourceware.org/git/glibc.git
 
+git clone https://sourceware.org/git/glibc.git
 cd glibc
 mkdir ../glibc-build
 cd ../glibc-build
