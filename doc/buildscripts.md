@@ -9,7 +9,7 @@ This document aims to describe a buildscript, line by line
 The name is the official name of the software. This way, something like Node would be named NodeJS here.
 
 ```
-NAME: Example
+# name: Example
 ```
 
 ### Package name
@@ -17,7 +17,7 @@ NAME: Example
 The package name is what the package is called. For example, Discord is called discord-bin, since it's a binary file.
 
 ```
-PKGNAME: example-bin
+# pack: example-bin
 ```
 
 ### Description
@@ -25,23 +25,15 @@ PKGNAME: example-bin
 The description is a short summary of the software.
 
 ```
-DESC: Never gonna give you up
+# desc: Never gonna give you up
 ```
 
 ### Dependencies
 
-The dependencies are the packages that the software depends on to build and run.
+The dependencies are the packages that the software depends on to build and run, seperated by commas.
 
 ```
-DEPS: Never, Gonna, Let, You, Down
-```
-
-### OS
-
-This entry specifies which OS the package works on.
-
-```
-OS: Linux, Darwin
+# deps: Never, Gonna, Let, You, Down
 ```
 
 ### Version
@@ -49,7 +41,7 @@ OS: Linux, Darwin
 The version is the version of the software. Binaries will have a set version, but software built from source will have a version of 'git'.
 
 ```
-VERSION: 6.9.42.0
+# ver: 6.9.42.0
 ```
 
 ### Type
@@ -57,27 +49,15 @@ VERSION: 6.9.42.0
 The type helps shade know whether it should use wget or git to download the package. Direct is for direct downloads, and git for git repositories.
 
 ```
-TYPE: direct
+# type: direct
 ```
 
 ### Source
 
-The source is the url to be downloaded or cloned. If a different url is required for different operating systems, specify it with SOURCE-${OS}.
+The source is the url to be downloaded or cloned.
 
 ```
-SOURCE:
-    SOURCE-DARWIN: https://example.com/rickastley/darwin.tar.gz
-    SOURCE-LINUX: https://example.com/rickastley/linux.tar.gz
-```
-
-### Commands
-
-This entry describes which commands have to be run to build and install the package. If different steps are required for different operating systems, specify them with COMMANDS-${OS}.
-
-```
-COMMANDS:
-    COMMANDS-DARWIN: tar xzvf darwin.tar.gz; cd darwin; make; make install
-    COMMANDS-DARWIN: tar xzvf linux.tar.gz; cd linux; make; make install
+# source: https://example.com/rickastley/linux.tar.gz
 ```
 
 ## Real example
@@ -85,14 +65,16 @@ COMMANDS:
 This is an example of a real buildscript, in this case an Emacs buildscript.
 
 ```
-NAME:     Emacs
-PKGNAME:  emacs
-DESC:     The extensible, customizable, self-documenting real-time display editor
-DEPS:     gnutls, jansson, gtk3
-OS:       Linux, Darwin
-VERSION:  git
+# name: Emacs
+# pack: emacs
+# desc: The extensible, customizable, self-documenting real-time display editor
+# deps: gnutls, jansson, gtk3
+# ver: git
+# type: git
+# source: git://git.sv.gnu.org/emacs.git
 
-TYPE:     git
-SOURCE:   git://git.sv.gnu.org/emacs.git
-COMMANDS: cd emacs; ./configure --prefix=/usr/loca/shade; make; make install
+cd emacs
+./configure --prefix=/opt/shade
+make
+make install
 ```

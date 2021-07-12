@@ -1,10 +1,12 @@
-NAME:     Example
-PKGNAME:  example
-DESC:     Never gonna give you up
-DEPS:     Never, Gonna, Let, You, Down
-OS:       Linux, Darwin
-VERSION:  git
+# name: Example
+# pack: example
+# desc: Never gonna give you up
+# deps: Never, Gonna, Let, You, Down
+# ver: git
+# type: git
+# source: https://www.github.com/rickastley/nggyu
 
-TYPE:     git
-SOURCE:   https://www.github.com/rickastley/nggyu
-COMMANDS: cd nggyu; make; make install
+cd nggyu
+./configure --prefix=/opt/shade
+make
+make install
