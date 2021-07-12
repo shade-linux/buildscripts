@@ -1,12 +1,11 @@
-# name:     Git
-# pkgname:  git
-# desc:     Fast, scalable, distributed revision control system
-# deps:     curl, perl, pcre, gettext, openssl, grep
-# os:       Linux, Darwin
-# version:  git
-# 
-# type:     direct
-# source:   https://www.github.com/git/git/archive/refs/heads/master.zip
+# name: Git
+# pack: git
+# desc: Fast, scalable, distributed revision control system
+# deps: curl, perl, pcre, gettext, openssl, grep
+# ver: git
+# type: direct
+# source: https://www.github.com/git/git/archive/refs/heads/master.zip
+
 tar xzvf git
 cd git
 make prefix=/opt/shade all

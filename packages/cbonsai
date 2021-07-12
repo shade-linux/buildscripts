@@ -1,11 +1,10 @@
-# name:     CBonsai
-# pkg:      cbonsai
-# desc:     Grow bonsai trees in your terminal
-# deps:     ncurses
-# os:       Linux, Darwin
-# version:  git
-# 
-# type:     git
-# source:   https://gitlab.com/jallbrit/cbonsai
+# name: CBonsai
+# pack: cbonsai
+# desc: Grow bonsai trees in your terminal
+# deps: ncurses
+# ver: git
+# type: git
+# source: https://gitlab.com/jallbrit/cbonsai
+
 cd cbonsai
 make install PREFIX=/opt/shade/

@@ -1,11 +1,10 @@
-# name:     Shade
-# pkgname:  shade
-# desc:     A simple package manager written in shell
-# deps:     bash, git, grep, find
-# os:       Linux, Darwin
-# version:  git
-# 
-# type:     git
-# source:   https://www.github.com/shade-linux/shade
+# name: Shade
+# pack: shade
+# desc: A simple package manager written in shell
+# deps: bash, git, grep, find
+# ver: git
+# type: git
+# source: https://www.github.com/shade-linux/shade
+
 cd shade
 cp ./src/shade /opt/shade/bin

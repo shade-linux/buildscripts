@@ -1,14 +1,10 @@
-NAME:     Discord
-PKGNAME:  discord-bin
-DESC:     Your place to talk and hang out
-DEPS:     none
-OS:       Linux, Darwin
-VERSION:  0.0.15
+# name: Discord
+# pack:  discord-bin
+# desc: Your place to talk and hang out
+# deps: none
+# ver: 0.0.15
+# type: direct
+# source: https://dl.discordapp.net/apps/linux/0.0.15/discord-0.0.15.tar.gz
 
-TYPE:     direct
-SOURCE:
-    SOURCE-DARWIN: https://dl.discordapp.net/apps/osx/0.0.263/Discord.dmg
-    SOURCE-LINUX: https://dl.discordapp.net/apps/linux/0.0.15/discord-0.0.15.tar.gz
-COMMANDS: 
-    COMMANDS-DARWIN: mv discord-bin discord.dmg; open ./discord.dmg
-    COMMANDS-LINUX: tar xzvf discord-0.0.15.tar.gz; cp ./discord-0.0.15/discord /opt/shade/bin
+tar xzvf discord-0.0.15.tar.gz
+cp ./discord-0.0.15/discord /opt/shade/bin

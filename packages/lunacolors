@@ -1,12 +1,11 @@
-# name:     Lunacolors
-# pkgname:  lunacolors
-# desc:     ANSI colors library for lua
-# deps:     lua
-# os:       Linux, Darwin
-# version:  git
-# 
-# type:     git
-# source:   https://github.com/Mewyuna/Lunacolors
-cd luna colors
+# name: Lunacolors
+# pack: lunacolors
+# desc: ANSI colors library for lua
+# deps: lua
+# ver:  git
+# type: git
+# source: https://github.com/Mewyuna/Lunacolors
+
+cd lunacolors
 mkdir -p /opt/shade/share/hilbish
 cp lunacolors.lua /opt/shade/share/hilbish/

@@ -1,12 +1,11 @@
-# name:     GNU readline
-# pkgname:  readline
-# desc:     The GNU readline library
-# deps:     glibc, ncurses
-# os:       Linux, Darwin
-# version:  8.1
-# 
-# type:     direct
-# source:   https://ftp.gnu.org/gnu/readline/readline-8.1.tar.gz
+# name: GNU readline
+# pack: readline
+# desc: The GNU readline library
+# deps: glibc, ncurses
+# ver: 8.1
+# type: direct
+# source: https://ftp.gnu.org/gnu/readline/readline-8.1.tar.gz
+
 tar xzvf readline
 cd readline
 ./configure --prefix=/opt/shade

@@ -1,12 +1,11 @@
-# name:     Python
-# pkgname:  python
-# desc:     The Python programming language
-# deps:     gdbm, readline, openssl
-# os:       Linux, Darwin
-# version:  git
-# 
-# type:     git
-# source:   https://www.github.com/python/cpython
+# name: Python
+# pack: python
+# desc: The Python programming language
+# deps: gdbm, readline, openssl
+# ver: git
+# type: git
+# source: https://www.github.com/python/cpython
+
 cd python
 ./configure --prefix=/opt/shade
 make

@@ -1,11 +1,10 @@
-# name:     Neofetch
-# pkgname:  neofetch
-# desc:     A command-line system information tool written in bash 3.2+
-# deps:     bash
-# os:       Linux, Darwin
-# version:  git
-# 
-# type:     git
-# source:   https://github.com/dylanaraps/neofetch/
+# name: Neofetch
+# pack: neofetch
+# desc: A command-line system information tool written in bash 3.2+
+# deps: bash
+# ver: git
+# type: git
+# source: https://github.com/dylanaraps/neofetch/
+
 cd neofetch
 make PREFIX=/opt/shade install

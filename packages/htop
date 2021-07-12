@@ -1,12 +1,11 @@
-# name:     htop
-# pkgname:  htop
-# desc:     an interactive process viewer
-# deps:     make, autoconf, ncurses, libtool, python3, automake
-# os:       Linux, Darwin
-# version:  git
-# 
-# type:     git
-# source:   https://github.com/htop-dev/htop
+# name: htop
+# pack: htop
+# desc: an interactive process viewer
+# deps: make, autoconf, ncurses, libtool, python3, automake
+# ver: git
+# type: git
+# source: https://github.com/htop-dev/htop
+
 cd htop
 ./autogen.sh
 ./configure --prefix=/opt/shade

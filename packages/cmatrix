@@ -1,12 +1,11 @@
-# name:     CMatrix
-# pkgname:  cmatrix
-# desc:     CMatrix is based on the screensaver from The Matrix website
-# deps:     ncurses
-# os:       Linux, Darwin
-# version:  git
-# 
-# type:     git
-# source:   https://github.com/abishekvashok/cmatrix
+# name: CMatrix
+# pack: cmatrix
+# desc: CMatrix is based on the screensaver from The Matrix website
+# deps: ncurses
+# ver: git
+# type: git
+# source: https://github.com/abishekvashok/cmatrix
+
 cd cmatrix
 autoreconf -i
 ./configure --prefix=/opt/shade

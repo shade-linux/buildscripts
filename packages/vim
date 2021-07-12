@@ -1,14 +1,12 @@
-# name:     Vim
-# pkgname:  vim
-# desc:     Vi Improved, a highly configurable, improved version of the vi text editor
-# deps:     vim-runtime, glibc
-# os:       Linux, Darwin
-# version:  git
-# 
-# type:     git
-# source:   https://www.github.com/vim/vim
+# name: Vim
+# pack: vim
+# desc: Vi Improved, a highly configurable, improved version of the vi text editor
+# deps: vim-runtime, glibc
+# ver: git
+# type: git
+# source: https://www.github.com/vim/vim
+
 cd vim
-echo "Why don't you install neovim?"
 ./configure --prefix=/opt/shade
 make
 make install

@@ -1,12 +1,11 @@
-# name:     GCC
-# pkgname:  gcc
-# desc:     The GNU compiler collection
-# deps:     gcc-libs, binutils, libmpc
-# os:       Linux, Darwin
-# version:  git
-# 
-# type:     git
-# source:   https://www.github.com/gcc-mirror/gcc
+# name: GCC
+# pack: gcc
+# desc: The GNU compiler collection
+# deps: gcc-libs, binutils, libmpc
+# ver: git
+# type: git
+# source: https://www.github.com/gcc-mirror/gcc
+
 cd gcc
 mkdir objdir
 cd objdir

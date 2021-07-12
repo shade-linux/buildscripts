@@ -1,12 +1,11 @@
-# name:     Glibc
-# pkgname:  glibc
-# desc:     The GNU C library
-# deps:     binutils, linux-api-headers
-# os:       Linux
-# version:  git
-# 
-# type:     git
-# source:   https://sourceware.org/git/glibc.git
+# name: Glibc
+# pack: glibc
+# desc: The GNU C library
+# deps: binutils, linux-api-headers
+# ver: git
+# type: git
+# source: https://sourceware.org/git/glibc.git
+
 cd glibc
 mkdir ../glibc-build
 cd ../glibc-build

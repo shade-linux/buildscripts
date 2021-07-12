@@ -1,12 +1,11 @@
-# name:     Hilbish
-# pkgname:  hilbish
-# desc:     Hilbish is an interactive Unix-like shell written in Go, with the config and other code written in Lua 
-# deps:     lunacolors, readline, go
-# os:       Linux, Darwin
-# version:  git
-# 
-# type:     git
-# source:   https://github.com/Mewyuna/Hilbish 
+# name: Hilbish
+# pack: hilbish
+# desc: Hilbish is an interactive Unix-like shell written in Go, with the config and other code written in Lua 
+# deps: lunacolors, readline, go
+# ver: git
+# type: git
+# source: https://github.com/Mewyuna/Hilbish 
+
 cd hilbish
 go get -d
 make build
