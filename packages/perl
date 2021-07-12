@@ -7,6 +7,6 @@
 # source: https://www.github.com/perl/perl5
 
 cd perl
-./configure -des -Dprefix=/opt/shade/ -Dusedevel
+./configure -des -Dprefix=${prefix}/ -Dusedevel
 make test
 make install

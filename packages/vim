@@ -7,6 +7,6 @@
 # source: https://www.github.com/vim/vim
 
 cd vim
-./configure --prefix=/opt/shade
+./configure --prefix=${prefix}
 make
 make install

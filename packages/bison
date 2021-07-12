@@ -8,6 +8,6 @@
 
 cd bison
 ./bootstrap
-./configure --prefix=/opt/shade
+./configure --prefix=${prefix}
 make
 make install

@@ -7,4 +7,4 @@
 # source: https://dl.discordapp.net/apps/linux/0.0.15/discord-0.0.15.tar.gz
 
 tar xzvf discord-0.0.15.tar.gz
-cp ./discord-0.0.15/discord /opt/shade/bin
+cp ./Discord/Discord ${prefix}/bin

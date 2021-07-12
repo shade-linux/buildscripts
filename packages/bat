@@ -8,4 +8,4 @@
 
 cd bat
 cargo build --release
-cp ./target/release/bat /opt/shade/bin/
+cp ./target/release/bat ${prefix}/bin/

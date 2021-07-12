@@ -7,5 +7,5 @@
 # source: https://github.com/neovim/neovim
 
 cd neovim
-make CMAKE_EXTRA_FLAGS="-DCMAKE_INSTALL_PREFIX=/opt/shade/"
+make CMAKE_EXTRA_FLAGS="-DCMAKE_INSTALL_PREFIX=${prefix}/"
 make install

@@ -7,4 +7,4 @@
 # source: https://github.com/mlvzk/discocss
 
 cd discocss
-cp ./discocss /opt/shade/bin
+cp ./discocss ${prefix}/bin

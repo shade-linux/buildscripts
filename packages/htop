@@ -8,6 +8,6 @@
 
 cd htop
 ./autogen.sh
-./configure --prefix=/opt/shade
+./configure --prefix=${prefix}
 make
 make install

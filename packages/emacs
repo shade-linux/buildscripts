@@ -7,6 +7,6 @@
 # source: git://git.sv.gnu.org/emacs.git
 
 cd emacs
-./configure --prefix=/opt/shade
+./configure --prefix=${prefix}
 make
 make install

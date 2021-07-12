@@ -8,6 +8,6 @@
 
 tar xzvf hello
 cd hello
-./configure --prefix=/opt/shade
+./configure --prefix=${prefix}
 make
 make install

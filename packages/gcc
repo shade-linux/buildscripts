@@ -9,6 +9,6 @@
 cd gcc
 mkdir objdir
 cd objdir
-../configure --prefix=/opt/shade
+../configure --prefix=${prefix}
 make
 make install

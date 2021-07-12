@@ -10,4 +10,4 @@ cd qutebrowser
 python3 scripts/asciidoc2html.py
 a2x -f manpage doc/qutebrowser.1.asciidoc
 python3 setup.py build
-make -f misc/Makefile PREFIX=/opt/shade install
+make -f misc/Makefile PREFIX=${prefix} install

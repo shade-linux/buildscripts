@@ -7,6 +7,6 @@
 # source: git://sourceware.org/git/binutils-gdb.git
 
 cd binutils-gdb
-./configure --prefix=/opt/shade --with-lib-path=/opt/shade/lib --enable-targets=x86_64-pep --enable-deterministic-archives --disable-gold --enable-lto --enable-ld=default --enable-plugins --disable-multilib --disable-werror --disable-gdb --disable-nls --disable-readline --disable-gprof --with-mmap --with-system-zlib
+./configure --prefix=${prefix} --with-lib-path=${prefix}/lib --enable-targets=x86_64-pep --enable-deterministic-archives --disable-gold --enable-lto --enable-ld=default --enable-plugins --disable-multilib --disable-werror --disable-gdb --disable-nls --disable-readline --disable-gprof --with-mmap --with-system-zlib
 make
 make install

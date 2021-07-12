@@ -8,6 +8,6 @@
 
 cd emacs
 ./autogen.sh
-./configure --prefix=/opt/shade --with-native-compilation
+./configure --prefix=${prefix} --with-native-compilation
 make
 make install

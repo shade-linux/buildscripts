@@ -7,7 +7,7 @@
 # source: https://nodejs.org/dist/v14.17.0/node-v14.17.0-linux-x64.tar.xz
 
 tar xzf node-bin
-mv node-*/lib/* /opt/shade/lib
-mv node-*/bin/* /opt/shade/bin
-mv node-*/include/* /opt/shade/include
-mv node-*/share/* /opt/shade/share
+mv node-*/lib/* ${prefix}/lib
+mv node-*/bin/* ${prefix}/bin
+mv node-*/include/* ${prefix}/include
+mv node-*/share/* ${prefix}/share

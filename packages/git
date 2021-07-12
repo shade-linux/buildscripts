@@ -8,5 +8,5 @@
 
 tar xzvf git
 cd git
-make prefix=/opt/shade all
+make prefix=${prefix} all
 make install

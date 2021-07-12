@@ -9,6 +9,6 @@
 cd glibc
 mkdir ../glibc-build
 cd ../glibc-build
-../glibc/configure --prefix=/opt/shade
+../glibc/configure --prefix=${prefix}
 make
 make install

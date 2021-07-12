@@ -7,4 +7,4 @@
 # source: https://gitlab.com/jallbrit/cbonsai
 
 cd cbonsai
-make install PREFIX=/opt/shade/
+make install PREFIX=${prefix}/

@@ -7,6 +7,6 @@
 # source: https://www.github.com/python/cpython
 
 cd python
-./configure --prefix=/opt/shade
+./configure --prefix=${prefix}
 make
 make install

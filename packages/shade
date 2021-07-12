@@ -7,4 +7,4 @@
 # source: https://www.github.com/shade-linux/shade
 
 cd shade
-cp ./src/shade /opt/shade/bin
+cp ./src/shade ${prefix}/bin

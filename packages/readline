@@ -8,6 +8,6 @@
 
 tar xzvf readline
 cd readline
-./configure --prefix=/opt/shade
+./configure --prefix=${prefix}
 make
 make install

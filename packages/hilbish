@@ -9,5 +9,5 @@
 cd hilbish
 go get -d
 make build
-cp hlibish /opt/shade/bin
+cp hlibish ${prefix}/bin
 cp .hlibish.lua $HOME/.hilbishrc.lua
