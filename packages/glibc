@@ -1,10 +1,15 @@
-NAME:     Glibc
-PKGNAME:  glibc
-DESC:     The GNU C library
-DEPS:     binutils, linux-api-headers
-OS:       Linux
-VERSION:  git
-
-TYPE:     git
-SOURCE:   https://sourceware.org/git/glibc.git
-COMMANDS: cd glibc; mkdir ../glibc-build; cd ../glibc-build; ../glibc/configure --prefix=/opt/shade; make; make install
+# name:     Glibc
+# pkgname:  glibc
+# desc:     The GNU C library
+# deps:     binutils, linux-api-headers
+# os:       Linux
+# version:  git
+# 
+# type:     git
+# source:   https://sourceware.org/git/glibc.git
+cd glibc
+mkdir ../glibc-build
+cd ../glibc-build
+../glibc/configure --prefix=/opt/shade
+make
+make install

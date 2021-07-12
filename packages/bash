@@ -1,10 +1,12 @@
-NAME:     Bash
-PKG:      bash
-DESC:     The Bourne shell
-DEPS:     readline, glibc, ncurses
-OS:       Linux, Darwin
-VERSION:  git
+# name: Bash
+# pack: bash
+# desc: The Bourne shell
+# deps: readline, glibc, ncurses
+# ver:  git
+# type:     git
+# source:   https://git.savannah.gnu.org/git/bash.git
 
-TYPE:     git
-SOURCE:   https://git.savannah.gnu.org/git/bash.git
-COMMANDS: cd bash; ./configure --prefix=/opt/shade --with-installed-readline; make; make install
+cd bash
+./configure --prefix=/opt/shade --with-installed-readline
+make
+make install

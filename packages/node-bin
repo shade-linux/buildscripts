@@ -1,12 +1,16 @@
-NAME:     NodeJS
-PKGNAME:  node-bin
-DESC:     Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine
-DEPS:     none
-OS:       Linux, Darwin
-VERSION:  14.17.0
-
-TYPE:     direct
-SOURCE:
-    SOURCE-DARWIN: https://nodejs.org/dist/v14.17.0/node-v14.17.0-darwin-x64.tar.gz
-    SOURCE-LINUX: https://nodejs.org/dist/v14.17.0/node-v14.17.0-linux-x64.tar.xz
-COMMANDS: tar xzf node-bin; mv node-*/lib/* /opt/shade/lib; mv node-*/bin/* /opt/shade/bin; mv node-*/include/* /opt/shade/include; mv node-*/share/* /opt/shade/share
+# name:     NodeJS
+# pkgname:  node-bin
+# desc:     Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine
+# deps:     none
+# os:       Linux, Darwin
+# version:  14.17.0
+# 
+# type:     direct
+# source:
+#     source-darwin: https://nodejs.org/dist/v14.17.0/node-v14.17.0-darwin-x64.tar.gz
+#     source-linux: https://nodejs.org/dist/v14.17.0/node-v14.17.0-linux-x64.tar.xz
+tar xzf node-bin
+mv node-*/lib/* /opt/shade/lib
+mv node-*/bin/* /opt/shade/bin
+mv node-*/include/* /opt/shade/include
+mv node-*/share/* /opt/shade/share

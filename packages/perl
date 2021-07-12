@@ -1,10 +1,13 @@
-NAME:     Perl
-PKGNAME:  perl
-DESC:     The Perl programming language
-DEPS:     glibc, libcrypt, libxcrypt
-OS:       Linux, Darwin
-VERSION:  git
-
-TYPE:     git
-SOURCE:   https://www.github.com/perl/perl5
-COMMANDS: cd perl; ./Configure -des -Dprefix=/opt/shade/ -Dusedevel; make test; make install
+# name:     Perl
+# pkgname:  perl
+# desc:     The Perl programming language
+# deps:     glibc, libcrypt, libxcrypt
+# os:       Linux, Darwin
+# version:  git
+# 
+# type:     git
+# source:   https://www.github.com/perl/perl5
+cd perl
+./configure -des -Dprefix=/opt/shade/ -Dusedevel
+make test
+make install

@@ -1,10 +1,11 @@
-NAME:     DiscoCSS
-PKGNAME:  discocss
-DESC:     A tiny Discord CSS injector
-DEPS:     bash
-OS:       Linux, Darwin
-VERSION:  git
-
-TYPE:     git
-SOURCE:   https://github.com/mlvzk/discocss
-COMMANDS: cd discocss; cp ./discocss /opt/shade/bin
+# name:     DiscoCSS
+# pkgname:  discocss
+# desc:     A tiny Discord CSS injector
+# deps:     bash
+# os:       Linux, Darwin
+# version:  git
+# 
+# type:     git
+# source:   https://github.com/mlvzk/discocss
+cd discocss
+cp ./discocss /opt/shade/bin

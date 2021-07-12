@@ -1,10 +1,13 @@
-NAME:     Emacs
-PKGNAME:  emacs
-DESC:     The extensible, customizable, self-documenting real-time display editor
-DEPS:     gnutls, jansson, gtk3
-OS:       Linux, Darwin
-VERSION:  git
-
-TYPE:     git
-SOURCE:   git://git.sv.gnu.org/emacs.git
-COMMANDS: cd emacs; ./configure --prefix=/opt/shade; make; make install
+# name:     Emacs
+# pkgname:  emacs
+# desc:     The extensible, customizable, self-documenting real-time display editor
+# deps:     gnutls, jansson, gtk3
+# os:       Linux, Darwin
+# version:  git
+# 
+# type:     git
+# source:   git://git.sv.gnu.org/emacs.git
+cd emacs
+./configure --prefix=/opt/shade
+make
+make install

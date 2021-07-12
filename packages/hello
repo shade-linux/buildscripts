@@ -1,10 +1,14 @@
-NAME:     Hello
-PKGNAME:  hello
-DESC:     Prints Hello World and more
-DEPS:     none
-OS:       Linux
-VERSION:  1.3
-
-TYPE:     direct
-SOURCE:   https://ftp.gnu.org/gnu/hello/hello-1.3.tar
-COMMANDS: tar xzvf hello; cd hello; ./configure --prefix=/opt/shade; make; make install
+# name:     Hello
+# pkgname:  hello
+# desc:     Prints Hello World and more
+# deps:     none
+# os:       Linux
+# version:  1.3
+# 
+# type:     direct
+# source:   https://ftp.gnu.org/gnu/hello/hello-1.3.tar
+tar xzvf hello
+cd hello
+./configure --prefix=/opt/shade
+make
+make install

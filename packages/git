@@ -1,10 +1,13 @@
-NAME:     Git
-PKGNAME:  git
-DESC:     Fast, scalable, distributed revision control system
-DEPS:     curl, perl, pcre, gettext, openssl, grep
-OS:       Linux, Darwin
-VERSION:  git
-
-TYPE:     direct
-SOURCE:   https://www.github.com/git/git/archive/refs/heads/master.zip
-COMMANDS: tar xzvf git; cd git; make prefix=/opt/shade all; make install
+# name:     Git
+# pkgname:  git
+# desc:     Fast, scalable, distributed revision control system
+# deps:     curl, perl, pcre, gettext, openssl, grep
+# os:       Linux, Darwin
+# version:  git
+# 
+# type:     direct
+# source:   https://www.github.com/git/git/archive/refs/heads/master.zip
+tar xzvf git
+cd git
+make prefix=/opt/shade all
+make install
