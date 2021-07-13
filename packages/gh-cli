@@ -1,0 +1,9 @@
+# name: Github cli
+# pack: gh-cli
+# desc: GitHub’s official command line tool 
+# deps: go
+# ver: git
+
+git clone https://github.com/cli/cli.git
+cd cli
+make install prefix=${prefix}
