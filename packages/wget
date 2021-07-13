@@ -1,0 +1,13 @@
+# name: wget
+# pack: wget
+# desc: Web Get
+# deps: openssl
+# ver: 1.8.2
+
+
+wget http://files.directadmin.com/services/wget-1.8.2.tar.gz
+tar xzf wget-1.8.2.tar.gz
+cd wget-1.8.2
+./configure --prefix=/opt/shade --with-ssl
+make
+make install
