@@ -1,0 +1,12 @@
+# name: ffmpeg
+# pack: ffmpeg
+# desc: A complete, cross-platform solution to record, convert and stream audio and video.
+# deps: glibc
+# ver: 4.4
+
+
+git clone https://git.ffmpeg.org/ffmpeg.git
+cd ffmpeg
+./configure --prefix=/opt/shade
+make
+make install
