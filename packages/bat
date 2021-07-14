@@ -3,8 +3,9 @@
 # desc: A cat clone with wings
 # deps: rust
 # ver: git
+# source: https://github.com/sharkdp/bat
 
-git clone https://github.com/sharkdp/bat
+git clone ${source}
 cd bat
 cargo build --release
 cp ./target/release/bat ${prefix}/bin/

@@ -3,7 +3,8 @@
 # desc: A command-line system information tool written in bash 3.2+
 # deps: bash
 # ver: git
+# source: https://github.com/dylanaraps/neofetch/
 
-git clone https://github.com/dylanaraps/neofetch/
+git clone ${source}
 cd neofetch
 make PREFIX=${prefix} install

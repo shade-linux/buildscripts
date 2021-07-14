@@ -3,8 +3,9 @@
 # desc: Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine
 # deps: none
 # ver: 14.17.0
+# source: https://nodejs.org/dist/v14.17.0/node-v14.17.0-linux-x64.tar.xz
 
-wget https://nodejs.org/dist/v14.17.0/node-v14.17.0-linux-x64.tar.xz
+wget ${source}
 tar xzf node-v14.17.0-linux-x64.tar.xz
 mv node-*/lib/* ${prefix}/lib
 mv node-*/bin/* ${prefix}/bin

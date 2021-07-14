@@ -3,8 +3,9 @@
 # desc: Hilbish is an interactive Unix-like shell written in Go, with the config and other code written in Lua 
 # deps: lunacolors, readline, go
 # ver: git
+# source: https://github.com/Mewyuna/Hilbish 
 
-git clone https://github.com/Mewyuna/Hilbish 
+git clone ${source}
 cd hilbish
 go get -d
 make build

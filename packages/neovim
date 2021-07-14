@@ -3,8 +3,9 @@
 # desc: Fork of Vim aiming to improve user experience, plugins, and GUIs
 # deps: libtermkey, libvterm, libuv, luajit
 # ver: git
+# source: https://github.com/neovim/neovim
 
-git clone https://github.com/neovim/neovim
+git clone ${source}
 cd neovim
 make CMAKE_EXTRA_FLAGS="-DCMAKE_INSTALL_PREFIX=${prefix}/"
 make install

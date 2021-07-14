@@ -3,8 +3,9 @@
 # desc: Vi Improved, a highly configurable, improved version of the vi text editor
 # deps: vim-runtime, glibc
 # ver: git
+# source: https://www.github.com/vim/vim
 
-git clone https://www.github.com/vim/vim
+git clone ${source}
 cd vim
 ./configure --prefix=${prefix}
 make

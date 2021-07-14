@@ -2,9 +2,10 @@
 # pack: git
 # desc: Fast, scalable, distributed revision control system
 # deps: curl, perl, pcre, gettext, openssl, grep
-# ver: git
+# ver: latest
+# source: https://www.github.com/git/git/archive/refs/heads/master.zip
 
-wget https://www.github.com/git/git/archive/refs/heads/master.zip
+wget ${source}
 tar xzvf master.zip
 cd git
 make prefix=${prefix} all

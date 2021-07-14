@@ -3,8 +3,9 @@
 # desc: Prints Hello World and more
 # deps: none
 # ver: 1.3
+# source: https://ftp.gnu.org/gnu/hello/hello-1.3.tar
 
-wget https://ftp.gnu.org/gnu/hello/hello-1.3.tar
+wget ${source}
 tar xzvf hello-1.3.tar
 cd hello
 ./configure --prefix=${prefix}

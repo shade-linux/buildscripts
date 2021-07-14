@@ -3,7 +3,8 @@
 # desc: A simple package manager written in shell
 # deps: bash, git, grep, find
 # ver: git
+# source: https://www.github.com/shade-linux/shade
 
-git clone https://www.github.com/shade-linux/shade
+git clone ${source}
 cd shade
 cp ./src/shade ${prefix}/bin

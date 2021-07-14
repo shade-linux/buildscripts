@@ -3,8 +3,9 @@
 # desc: The GNU compiler collection
 # deps: gcc-libs, binutils, libmpc
 # ver: git
+# source: https://www.github.com/gcc-mirror/gcc
 
-git clone https://www.github.com/gcc-mirror/gcc
+git clone ${source}
 cd gcc
 mkdir objdir
 cd objdir

@@ -3,7 +3,8 @@
 # desc: Grow bonsai trees in your terminal
 # deps: ncurses
 # ver: git
+# source: https://gitlab.com/jallbrit/cbonsai
 
-git clone https://gitlab.com/jallbrit/cbonsai
+git clone ${source}
 cd cbonsai
 make install PREFIX=${prefix}/

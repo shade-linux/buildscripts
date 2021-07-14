@@ -3,8 +3,9 @@
 # desc: The GNU general-purpose parser generator
 # deps: glibc
 # ver: git
+# source: https://git.savannah.gnu.org/git/bison.git
 
-git clone https://git.savannah.gnu.org/git/bison.git
+git clone ${source}
 cd bison
 ./bootstrap
 ./configure --prefix=${prefix}

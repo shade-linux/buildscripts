@@ -3,7 +3,8 @@
 # desc: GitHub’s official command line tool 
 # deps: go
 # ver: git
+# source: https://github.com/cli/cli.git
 
-git clone https://github.com/cli/cli.git
+git clone ${source}
 cd cli
 make install prefix=${prefix}

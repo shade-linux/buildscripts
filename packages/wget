@@ -3,9 +3,9 @@
 # desc: Web Get
 # deps: openssl
 # ver: 1.8.2
+# source: http://files.directadmin.com/services/wget-1.8.2.tar.gz
 
-
-wget http://files.directadmin.com/services/wget-1.8.2.tar.gz
+wget ${source}
 tar xzf wget-1.8.2.tar.gz
 cd wget-1.8.2
 ./configure --prefix=/opt/shade --with-ssl

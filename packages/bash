@@ -3,8 +3,9 @@
 # desc: The Bourne shell
 # deps: readline, glibc, ncurses
 # ver: git
+# source: https://git.savannah.gnu.org/git/bash.git
 
-git clone https://git.savannah.gnu.org/git/bash.git
+git clone ${source}
 cd bash
 ./configure --prefix=${prefix} --with-installed-readline
 make

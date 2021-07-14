@@ -3,8 +3,9 @@
 # desc: ANSI colors library for lua
 # deps: lua
 # ver: git
+# source: https://github.com/Mewyuna/Lunacolors
 
-git clone https://github.com/Mewyuna/Lunacolors
+git clone ${source}
 cd lunacolors
 mkdir -p ${prefix}/share/hilbish
 cp lunacolors.lua ${prefix}/share/hilbish/

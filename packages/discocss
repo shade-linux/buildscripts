@@ -3,7 +3,8 @@
 # desc: A tiny Discord CSS injector
 # deps: bash
 # ver: git
+# source: https://github.com/mlvzk/discocss
 
-git clone https://github.com/mlvzk/discocss
+git clone ${source}
 cd discocss
 cp ./discocss ${prefix}/bin

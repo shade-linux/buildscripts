@@ -3,8 +3,9 @@
 # desc: The Python programming language
 # deps: gdbm, readline, openssl
 # ver: git
+# source: https://www.github.com/python/cpython
 
-git clone https://www.github.com/python/cpython
+git clone ${source}
 cd python
 ./configure --prefix=${prefix}
 make

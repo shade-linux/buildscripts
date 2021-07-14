@@ -3,8 +3,9 @@
 # desc: The GNU readline library
 # deps: glibc, ncurses
 # ver: 8.1
+# source: https://ftp.gnu.org/gnu/readline/readline-8.1.tar.gz
 
-wget https://ftp.gnu.org/gnu/readline/readline-8.1.tar.gz
+wget ${source}
 tar xzvf readline-8.1.tar.gz
 cd readline
 ./configure --prefix=${prefix}

@@ -3,8 +3,9 @@
 # desc: The Perl programming language
 # deps: glibc, libcrypt, libxcrypt
 # ver: git
+# source: https://www.github.com/perl/perl5
 
-git clone https://www.github.com/perl/perl5
+git clone ${source}
 cd perl
 ./configure -des -Dprefix=${prefix}/ -Dusedevel
 make test
