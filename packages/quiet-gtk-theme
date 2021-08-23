@@ -1,0 +1,11 @@
+# name: Quiet gtk theme
+# pack: quiet-gtk-theme
+# desc: Quiet theme for GTK
+# deps: npm
+# ver: git
+# source: https://github.com/QuietTheme/GTK
+
+git clone ${source}
+cd gtk
+make
+make install
